@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TEXT EDITOR</title>
+    <script src="codemirror-5.65.8/lib/codemirror.js"></script>
+    <link href="codemirror-5.65.8/lib/codemirror.css" rel="stylesheet"/>
+    <script src="codemirror-5.65.8/mode/xml/xml.js"></script>
+    <script src="codemirror-5.65.8/addon/edit/closetag.js"></script>
+    <link href="codemirror-5.65.8/theme/night.css" rel="stylesheet"/>
+</head>
+<body> 
+    <textarea id="editor">
+        <p>Wassup gang</p>
+    </textarea>
+    <script>
+        var editor = CodeMirror.fromTextArea
+        (document.getElementById('editor'), {
+            mode: "xml",
+            theme: "night",
+            lineNumbers: true,
+            autoCloseTags: true
+        });
+    </script>
+</body>
+</html>
