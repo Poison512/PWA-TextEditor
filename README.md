@@ -1,6 +1,6 @@
 # PWA-TextEditor
 
-## DEPLOYED SITE(https://fast-beach-20603.herokuapp.com)
+## [DEPLOYED SITE](https://fast-beach-20603.herokuapp.com)
 
 
 ## Manifest.JSON
